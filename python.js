@@ -207,108 +207,118 @@ let javatest = [
       "answer": 1
     }
 ];
-let javaassesment=[
-      {
-        "question": "What is Java?",
-        "options": ["A programming language", "An operating system", "A database", "A web browser"],
-        "answer": "A programming language"
-      },
-      {
-        "question": "Which data type is used to create a variable that should store text?",
-        "options": ["int", "float", "String", "char"],
-        "answer": "String"
-      },
-      {
-        "question": "What is the default value of an int variable in Java?",
-        "options": ["null", "0", "undefined", "-1"],
-        "answer": "0"
-      },
-      {
-        "question": "What is the correct way to declare an array in Java?",
-        "options": ["int arr[] = new int[5];", "array int arr[5];", "int[] arr = 5;", "arr = int[5];"],
-        "answer": "int arr[] = new int[5];"
-      },
-      {
-        "question": "Which keyword is used to create a class in Java?",
-        "options": ["class", "define", "create", "new"],
-        "answer": "class"
-      },
-      {
-        "question": "What is the size of a char in Java?",
-        "options": ["1 byte", "2 bytes", "4 bytes", "8 bytes"],
-        "answer": "2 bytes"
-      },
-      {
-        "question": "What is the output of the expression 10 + 20 + \"30\"?",
-        "options": ["1030", "102030", "30", "Error"],
-        "answer": "1030"
-      },
-      {
-        "question": "Which method is used to print output in Java?",
-        "options": ["System.print()", "System.out.println()", "print()", "cout<<"],
-        "answer": "System.out.println()"
-      },
-      {
-        "question": "What does the keyword 'static' mean in Java?",
-        "options": ["Defines a constant variable", "Defines a method that belongs to the class", "Defines a method that can only be overridden", "Defines an abstract method"],
-        "answer": "Defines a method that belongs to the class"
-      },
-      {
-        "question": "Which loop is guaranteed to execute at least once?",
-        "options": ["for", "while", "do-while", "None of the above"],
-        "answer": "do-while"
-      },
-      {
-        "question": "Which package contains the Random class?",
-        "options": ["java.lang", "java.io", "java.util", "java.net"],
-        "answer": "java.util"
-      },
-      {
-        "question": "What is a constructor in Java?",
-        "options": ["A method to destroy objects", "A method to initialize objects", "A method to finalize objects", "A method to override objects"],
-        "answer": "A method to initialize objects"
-      },
-      {
-        "question": "What is inheritance in Java?",
-        "options": ["Copying variables from one class to another", "Creating new classes from existing ones", "Overriding methods", "None of the above"],
-        "answer": "Creating new classes from existing ones"
-      },
-      {
-        "question": "Which interface is used to implement a thread in Java?",
-        "options": ["Runnable", "Threadable", "Thread", "Concurrent"],
-        "answer": "Runnable"
-      },
-      {
-        "question": "What does the 'finally' block do in Java?",
-        "options": ["Executes after the try block only if an exception occurs", "Executes always after the try block", "Executes if no exception occurs", "Handles exceptions"],
-        "answer": "Executes always after the try block"
-      },
-      {
-        "question": "What is the use of the 'this' keyword in Java?",
-        "options": ["Refers to the current instance of the class", "Refers to the superclass of the current class", "Refers to a static method", "Refers to the main method"],
-        "answer": "Refers to the current instance of the class"
-      },
-      {
-        "question": "Which exception is thrown when dividing by zero in Java?",
-        "options": ["ArithmeticException", "IOException", "NullPointerException", "NumberFormatException"],
-        "answer": "ArithmeticException"
-      },
-      {
-        "question": "What is the purpose of the 'super' keyword in Java?",
-        "options": ["Refers to the parent class object", "Refers to the subclass object", "Used to override methods", "None of the above"],
-        "answer": "Refers to the parent class object"
-      },
-      {
-        "question": "What is polymorphism in Java?",
-        "options": ["Executing the same method in multiple ways", "Using multiple classes in one program", "Defining multiple methods in one class", "None of the above"],
-        "answer": "Executing the same method in multiple ways"
-      },
-      {
-        "question": "Which Java keyword is used to stop the execution of a loop?",
-        "options": ["exit", "break", "return", "continue"],
-        "answer": "break"
-      }
+
+
+
+let javaassessment = [
+  {
+    "question": "What is Java?",
+    "options": ["A programming language", "An operating system", "A database", "A web browser"],
+    "answer": 0
+  },
+  {
+    "question": "Which data type is used to create a variable that should store text?",
+    "options": ["int", "float", "String", "char"],
+    "answer": 2
+  },
+  {
+    "question": "What is the default value of an int variable in Java?",
+    "options": ["null", "0", "undefined", "-1"],
+    "answer": 1
+  },
+  {
+    "question": "What is the correct way to declare an array in Java?",
+    "options": ["int arr[] = new int[5];", "array int arr[5];", "int[] arr = 5;", "arr = int[5];"],
+    "answer": 0
+  },
+  {
+    "question": "Which keyword is used to create a class in Java?",
+    "options": ["class", "define", "create", "new"],
+    "answer": 0
+  },
+  {
+    "question": "What is the size of a char in Java?",
+    "options": ["1 byte", "2 bytes", "4 bytes", "8 bytes"],
+    "answer": 1
+  },
+  {
+    "question": "What is the output of the expression 10 + 20 + \"30\"?",
+    "options": ["1030", "102030", "30", "Error"],
+    "answer": 0
+  },
+  {
+    "question": "Which method is used to print output in Java?",
+    "options": ["System.print()", "System.out.println()", "print()", "cout<<"],
+    "answer": 1
+  },
+  {
+    "question": "What does the keyword 'static' mean in Java?",
+    "options": ["Defines a constant variable", "Defines a method that belongs to the class", "Defines a method that can only be overridden", "Defines an abstract method"],
+    "answer": 1
+  },
+  {
+    "question": "Which loop is guaranteed to execute at least once?",
+    "options": ["for", "while", "do-while", "None of the above"],
+    "answer": 2
+  },
+  {
+    "question": "Which package contains the Random class?",
+    "options": ["java.lang", "java.io", "java.util", "java.net"],
+    "answer": 2
+  },
+  {
+    "question": "What is a constructor in Java?",
+    "options": ["A method to destroy objects", "A method to initialize objects", "A method to finalize objects", "A method to override objects"],
+    "answer": 1
+  },
+  {
+    "question": "What is inheritance in Java?",
+    "options": ["Copying variables from one class to another", "Creating new classes from existing ones", "Overriding methods", "None of the above"],
+    "answer": 1
+  },
+  {
+    "question": "Which interface is used to implement a thread in Java?",
+    "options": ["Runnable", "Threadable", "Thread", "Concurrent"],
+    "answer": 0
+  },
+  {
+    "question": "What does the 'finally' block do in Java?",
+    "options": ["Executes after the try block only if an exception occurs", "Executes always after the try block", "Executes if no exception occurs", "Handles exceptions"],
+    "answer": 1
+  },
+  {
+    "question": "What is the use of the 'this' keyword in Java?",
+    "options": ["Refers to the current instance of the class", "Refers to the superclass of the current class", "Refers to a static method", "Refers to the main method"],
+    "answer": 0
+  },
+  {
+    "question": "Which exception is thrown when dividing by zero in Java?",
+    "options": ["ArithmeticException", "IOException", "NullPointerException", "NumberFormatException"],
+    "answer": 0
+  },
+  {
+    "question": "What is the purpose of the 'super' keyword in Java?",
+    "options": ["Refers to the parent class object", "Refers to the subclass object", "Used to override methods", "None of the above"],
+    "answer": 0
+  },
+  {
+    "question": "What is polymorphism in Java?",
+    "options": ["Executing the same method in multiple ways", "Using multiple classes in one program", "Defining multiple methods in one class", "None of the above"],
+    "answer": 0
+  },
+  {
+    "question": "Which Java keyword is used to stop the execution of a loop?",
+    "options": ["exit", "break", "return", "continue"],
+    "answer": 1
+  }
 ];
+
+
+
+
+
+
+
 
 let pythontest=[
   {
