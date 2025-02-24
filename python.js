@@ -210,7 +210,7 @@ let javatest = [
 
 
 
-let javaassessment = [
+let javaassesment = [
   {
     "question": "What is Java?",
     "options": ["A programming language", "An operating system", "A database", "A web browser"],
