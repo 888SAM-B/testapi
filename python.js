@@ -320,7 +320,7 @@ let javaassesment = [
 
 
 
-let pythontest=[
+let pythontest = [
   {
     "question": "Which of the following is the correct way to create a variable in Python?",
     "options": [
@@ -480,8 +480,49 @@ let pythontest=[
       "Error"
     ],
     "answer": 1
+  },
+  {
+    "question": "Which of the following statements is used to exit a loop in Python?",
+    "options": [
+      "break",
+      "exit",
+      "stop",
+      "quit"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What will be the output of print(type([])) in Python?",
+    "options": [
+      "<class 'list'>",
+      "<class 'tuple'>",
+      "<class 'dict'>",
+      "<class 'set'>"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which keyword is used to create an anonymous function in Python?",
+    "options": [
+      "def",
+      "lambda",
+      "function",
+      "anonymous"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What will be the output of the following code snippet?\nprint('Hello' * 3)",
+    "options": [
+      "'HelloHelloHello'",
+      "'Hello * 3'",
+      "Error",
+      "'Hello  Hello  Hello'"
+    ],
+    "answer": 0
   }
-]
+];
+
 
 
 
@@ -889,16 +930,7 @@ let htmltest=[
     ],
     "answer": 0
   },
-  {
-    "question": "What is the purpose of the `<figure>` and `<figcaption>` elements in HTML5?",
-    "options": [
-      "To define a section of content that is self-contained and can be distributed independently, and its caption",
-      "To create a navigation link",
-      "To define a header section",
-      "To display images"
-    ],
-    "answer": 0
-  }
+  
 ];
 
 
@@ -1693,7 +1725,7 @@ let jstest=[
   {
     "question": "How do you find the length of a string in JavaScript?",
     "options": [
-      "length()",
+      "length",
       "size()",
       "str.length",
       "str.count"
@@ -1926,6 +1958,18 @@ let jsassesment=[
     "answer": 1
   }
 ];
+
+
+console.log("javatest",javatest.length);
+console.log("javaassessment",javaassesment.length);
+console.log("python",pythontest.length);
+console.log("python assessment",pythonassesment.length);
+console.log("html",htmltest.length);
+console.log("htmlassessment",htmlassesment.length);
+console.log("css",csstest.length);
+console.log("cssassesment",cssassesment.length);
+console.log("js",jstest.length);
+console.log("jsassessment",jsassesment.length);
 
 
 // Endpoints
