@@ -129,7 +129,7 @@ let javatest = [
     {
       "question": "What does the 'try' block do in Java?",
       "options": [
-        "Executes code that might throw an exception",
+        "Executes `code` that might throw an exception",
         "Declares an exception",
         "Handles an exception",
         "Ignores an exception"
@@ -608,7 +608,7 @@ let pythonassesment=[
     "answer": 0
   },
   {
-    "question": "What does the following code snippet do?",
+    "question": "What does the following code snippet do?\nprint(10/0)",
     "options": [
       "It adds two numbers.",
       "It defines a function with a default argument.",
