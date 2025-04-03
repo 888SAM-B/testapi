@@ -1,9 +1,10 @@
 const express = require('express');
 const app = express();
+const cors = require("cors");
 
 // Middleware
 app.use(express.json()); // Parses JSON requests
-
+app.use(cors());
 // Sample data
 let javatest = [
     {
