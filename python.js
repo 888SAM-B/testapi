@@ -1974,6 +1974,11 @@ console.log("jsassessment",jsassesment.length);
 
 
 // Endpoints
+app.get('/', (req, res) => {
+    res.send('Hello from Test server!');
+});
+
+
 app.get('/java', (req, res) => {
     res.send(javatest);
 });
@@ -2006,3 +2011,4 @@ res.send(jsassesment);
 });
 // Start the server
 app.listen(3000, () => console.log('API running on http://localhost:3000'));
+
